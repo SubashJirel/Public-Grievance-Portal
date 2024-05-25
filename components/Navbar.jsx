@@ -7,7 +7,7 @@ export default function Component() {
   return (
     <>
       <header className="bg-gray-900 text-white py-4 px-6 md:px-12 flex items-center justify-between">
-        <Link className="flex items-center gap-2" href="#">
+        <Link className="flex items-center gap-2" href="/">
           <ClipboardListIcon className="h-6 w-6" />
           <span className="text-xl font-bold">Grievance Portal</span>
         </Link>
@@ -21,7 +21,7 @@ export default function Component() {
           <Link className="hover:underline" href="/status">
             View Status
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="/contact">
             Contact Us
           </Link>
         </nav>
