@@ -6,7 +6,7 @@ function Footer() {
     <footer className="bg-gray-900 text-white py-6 px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-6">
       <div className="flex items-center gap-2">
         <ClipboardListIcon className="h-6 w-6" />
-        <span className="text-xl font-bold">Grievance Portal</span>
+        <span className="text-xl font-bold">Citizen Voice portal</span>
       </div>
       <div className="flex mx-auto items-start gap-2">
         <Link className="hover:underline" href="#">
@@ -28,7 +28,7 @@ function Footer() {
         </Link>
       </div>
       <div className="col-span-full mx-auto text-center text-sm text-gray-400">
-        © 2024 Grievance Portal. All rights reserved.
+        © 2024 Citizen Voice Portal. All rights reserved.
       </div>
     </footer>
   );

@@ -21,10 +21,10 @@ export default function Component() {
       <div className="px-4 md:px-6">
         <div className="space-y-4 text-center">
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Public Grievance Portal
+            Citizen Voice Portal
           </h1>
           <p className="text-gray-500 dark:text-gray-400 max-w-[650px] mx-auto">
-            Submit your grievances and concerns, and we'll make sure they're
+            Submit your complaints and concerns, and we'll make sure they're
             addressed.
           </p>
         </div>
@@ -46,10 +46,10 @@ export default function Component() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
-                <Label htmlFor="grievance-type">Grievance Type</Label>
-                <Select id="grievance-type">
+                <Label htmlFor="Complaint-type">Complaint Type</Label>
+                <Select id="Complaint-type">
                   <SelectTrigger>
-                    <SelectValue placeholder="Select grievance type" />
+                    <SelectValue placeholder="Select Complaint type" />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="infrastructure">
@@ -138,12 +138,12 @@ export default function Component() {
               <Textarea
                 className="min-h-[150px]"
                 id="details"
-                placeholder="Provide details about your grievance"
+                placeholder="Provide details about your Complaint"
               />
             </div>
 
             <Button className="justify-center" type="submit">
-              Submit Grievance
+              Submit Complaint
             </Button>
           </form>
         </div>

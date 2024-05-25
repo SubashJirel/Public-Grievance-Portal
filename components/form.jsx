@@ -15,14 +15,14 @@ export default function Component() {
       <header className="flex h-20 w-full shrink-0 items-center px-4 md:px-6 bg-gray-100 dark:bg-gray-800">
         <Link className="mr-6 flex items-center" href="#">
           <MountainIcon className="h-6 w-6" />
-          <span className="sr-only">Public Grievance Portal</span>
+          <span className="sr-only">Citizen Voice Portal</span>
         </Link>
         <nav className="ml-auto flex items-center space-x-4">
           <Link
             className="inline-flex h-9 w-max items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
             href="#"
           >
-            File a Grievance
+            File a Complaint
           </Link>
         </nav>
       </header>
@@ -31,10 +31,10 @@ export default function Component() {
           <div className="mx-auto max-w-3xl space-y-8">
             <div className="space-y-2 text-center">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                File Your Public Grievance
+                File Your Public Complaint
               </h1>
               <p className="text-gray-500 dark:text-gray-400">
-                Fill out the form below to submit your grievance.
+                Fill out the form below to submit your Complaint.
               </p>
             </div>
             <form className="grid gap-6">
@@ -69,11 +69,11 @@ export default function Component() {
                 />
               </div>
               <div className="grid gap-2">
-                <Label htmlFor="grievance">Grievance Details</Label>
+                <Label htmlFor="Complaint">Complaint Details</Label>
                 <Textarea
                   className="min-h-[200px]"
-                  id="grievance"
-                  placeholder="Describe your grievance in detail"
+                  id="Complaint"
+                  placeholder="Describe your Complaint in detail"
                   required
                 />
               </div>
@@ -82,7 +82,7 @@ export default function Component() {
                 <Input id="supporting-docs" type="file" />
               </div>
               <Button className="w-full" type="submit">
-                Submit Grievance
+                Submit Complaint
               </Button>
             </form>
           </div>
@@ -91,7 +91,7 @@ export default function Component() {
       <footer className="bg-gray-100 dark:bg-gray-800 py-6">
         <div className="container px-4 md:px-6 flex items-center justify-between">
           <div className="text-gray-500 dark:text-gray-400 text-sm">
-            © 2024 Public Grievance Portal. All rights reserved.
+            © 2024 Public Complaint Portal. All rights reserved.
           </div>
           <nav className="flex items-center space-x-4">
             <Link

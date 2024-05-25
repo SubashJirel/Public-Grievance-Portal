@@ -9,14 +9,14 @@ export default function Component() {
       <header className="bg-gray-900 text-white py-4 px-6 md:px-12 flex items-center justify-between">
         <Link className="flex items-center gap-2" href="/">
           <ClipboardListIcon className="h-6 w-6" />
-          <span className="text-xl font-bold">Grievance Portal</span>
+          <span className="text-xl font-bold">Citizen Voice Portal</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           <Link className="hover:underline" href="/">
             Home
           </Link>
           <Link className="hover:underline" href="/form">
-            File a Grievance
+            File a Complaint
           </Link>
           <Link className="hover:underline" href="/status">
             View Status

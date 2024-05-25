@@ -26,9 +26,9 @@ export default function Component() {
     <div className="flex justify-center mt-5">
       <Card className="w-full max-w-2xl">
         <CardHeader>
-          <CardTitle>Check Grievance Status</CardTitle>
+          <CardTitle>Check Complaint Status</CardTitle>
           <CardDescription>
-            Enter your tracking number to view the status of your grievance.
+            Enter your tracking number to view the status of your Complaint.
           </CardDescription>
         </CardHeader>
         <CardContent className="grid gap-4">
@@ -68,9 +68,9 @@ export default function Component() {
                   <CalendarCheckIcon className="w-5 h-5" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-semibold">Grievance Submitted</h3>
+                  <h3 className="font-semibold">Complaint Submitted</h3>
                   <p className="text-gray-500 dark:text-gray-400 text-sm">
-                    Your grievance has been received and is currently being
+                    Your Complaint has been received and is currently being
                     processed.
                   </p>
                 </div>
@@ -85,9 +85,9 @@ export default function Component() {
                   <CheckIcon className="w-5 h-5" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-semibold">Grievance Resolved</h3>
+                  <h3 className="font-semibold">Complaint Resolved</h3>
                   <p className="text-gray-500 dark:text-gray-400 text-sm">
-                    Your grievance has been addressed and the issue has been
+                    Your Complaint has been addressed and the issue has been
                     resolved.
                   </p>
                 </div>
@@ -102,9 +102,9 @@ export default function Component() {
                   <ClockIcon className="w-5 h-5" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-semibold">Grievance in Progress</h3>
+                  <h3 className="font-semibold">Complaint in Progress</h3>
                   <p className="text-gray-500 dark:text-gray-400 text-sm">
-                    Your grievance is currently being addressed and is in
+                    Your Complaint is currently being addressed and is in
                     progress.
                   </p>
                 </div>
